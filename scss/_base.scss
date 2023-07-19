@@ -1,0 +1,32 @@
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+} 
+
+img {
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+}
+
+a {
+text-decoration: none;
+display: block;
+color:#ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 12px;
+}

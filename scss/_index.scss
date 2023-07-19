@@ -1,0 +1,116 @@
+.menu {
+    gap: 61px;
+
+    .item:hover {
+        color: #ffffff;
+    }
+}
+
+.title {
+    color: #00FFA3;
+    text-align: right;
+}
+
+.contactBtn {
+    
+    border-radius: 32px;
+    text-align: right;
+
+    &:hover {
+        background-color: #D1D1D1;
+    }
+}
+
+.intro {
+
+    background-image: url(../img/background-img.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .textArea {
+        width: 40%;
+    }
+
+    .aside {
+        width: 60%;
+    }
+
+
+}
+
+.aboutMe{
+
+    .detail{
+        width: 50%;
+        flex-wrap:wrap;
+
+        .card {
+            width: 48%;
+            border: 1px solid #E3E3E3;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+        }
+    }
+    
+
+    .textArea{
+        width: 40%;
+    }
+}
+
+.contactMe{
+    .textArea{
+        width: 52%;
+    }
+
+    .contactLink{
+        width: 40%;
+    }
+
+    .itemImg{
+        width: 162px;
+        height: 162px;
+        object-fit: cover;
+        box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+        border-radius: 40px;
+        &:hover{
+            box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+.project{
+    .subTitle{
+        text-align: left;
+        width: 60%;
+    }
+
+    .aside{
+        width: 33%;
+    }
+
+    .detail{
+        width: 66%;
+
+        .projectPhone{
+            width:35%;
+        }
+
+        .projectDesktop{
+            width:62%;
+        }
+    }
+
+    .btn{
+        
+        border-radius: 32px;
+        &:hover{
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+
+}
+
+
+
